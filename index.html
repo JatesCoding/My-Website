@@ -5,10 +5,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>JatesLabs</title>
     <link rel="stylesheet" href="style.css" />
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-    />
     <script
       src="https://kit.fontawesome.com/525a033822.js"
       crossorigin="anonymous"
@@ -16,41 +12,35 @@
   </head>
   <body>
     <!-- Navbar -->
-    <!-- The navbar is a responsive navigation bar that is used to display a list of links to a group of pages. -->
-    <nav class="navbar navbar-expand-lg bg-body-tertiary">
-      <div class="container-fluid">
-        <img src="/Logo.svg" alt="JatesLabs Logo" width="50" height="50" />
-        <a class="navbar-brand" href="#">J.T.</a>
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navbarSupportedContent"
-          aria-controls="navbarSupportedContent"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
-      </div>
+    <nav>
+      <ul class="nav-bar">
+        <li class="nav-item"><img src="/Logo.svg" alt="JatesLabs Logo" width="50" height="50" /></li>
+        <li class="nav-item-title">Jeremiah T. Leaman</li>
+        <li class="nav-item"><a href="index.html">Home</a></li>
+        <li class="nav-item"><a href="blog.html">Blogs</a></li>
+        <li class="nav-item"><a href="projects.html">Contact</a></li>
+        <li class="nav-item"><a href="about.html">About</a></li>
+      </ul>
     </nav>
     <!-- Header -->
     <!-- The header is a container for introductory content or a set of navigational links. -->
-    <header class="text-center bg-primary text-white">
-      <div class="position-relative" style="height: 700px; overflow: hidden">
-        <img
-          src="./assets/1741061878461.jpg"
-          class="w-100 h-100"
-          style="object-fit: cover; object-position: top"
-          alt="Welcome Image"
-        />
-      </div>
-      <div class="container py-5">
-        <h1>J.T.</h1>
-        <h5>Jeremiah T. Leaman</h5>
-        <p>Web Developer | Designer | Creator</p>
-      </div>
-    </header>
+    <section>
+      <header>
+        <div style="height: 700px; overflow: hidden">
+          <img
+            src="./assets/1741061878461.jpg"
+            class="w-100 h-100"
+            style="object-fit: cover; object-position: top"
+            alt="Welcome Image"
+          />
+        </div>
+        <div class="container py-5">
+          <h1>J.T.</h1>
+          <h5>Jeremiah T. Leaman</h5>
+          <p>Web Developer | Designer | Creator</p>
+        </div>
+      </header>
+    </section>
 
     <!-- About Me -->
     <!-- The about section is a container for information about me on the website. -->
@@ -108,12 +98,12 @@
       <p>Find me on social media:</p>
       <div class="d-flex justify-content-center flex-wrap">
         <a href="https://github.com/JatesCoding" class="btn btn-primary m-1"
-          ><i class="fa-brands fa-github" style="color: #ffffff"></i> GitHub</a
+          ><i class="fa-brands fa-github" style="color: #000000"></i> GitHub</a
         >
         <a
           href="https://www.linkedin.com/in/jeremiah-leaman/"
           class="btn btn-primary m-1"
-          ><i class="fa-brands fa-linkedin-in" style="color: #ffffff"></i>
+          ><i class="fa-brands fa-linkedin-in" style="color: #000000"></i>
           LinkedIn</a
         >
         <a href="https://x.com/JeremiahLe16212" class="btn btn-primary m-1"
@@ -125,7 +115,7 @@
     <!-- The footer is a container for the site's information. -->
     <footer class="text-center py-3 bg-dark text-white">
       <p>
-        <i class="fa-solid fa-copyright" style="color: #ffffff"></i> 2025
+        <i class="fa-solid fa-copyright" style="color: #000000"></i> 2025
         Jeremiah T. Leaman All Rights Reserved.
       </p>
     </footer>
